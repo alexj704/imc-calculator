@@ -1,0 +1,93 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Lato, Helvetica, sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #eee;
+  width: 900px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 70px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 14px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.form-input {
+  display: flex;
+}
+
+.form-input > div {
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+
+label {
+  padding-left: 15px;
+}
+
+input {
+  padding: 15px;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333333;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(255, 187, 0);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.result {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.result > h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.result > p {
+  font-size: 20px;
+}
