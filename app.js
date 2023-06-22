@@ -21,7 +21,7 @@ function calculImc(height, weight) {
   imc = Math.round((weight / Math.pow(height / 100, 2)) * 10) / 10;
   if (imc < 40) {
     for (let i in BMIData) {
-      if (BMIData[i].range[0] < imc && BMIData[i].range[1] > imc) {
+      if (BMIData[i].range[0] <= imc && BMIData[i].range[1] > imc) {
         dataImc = BMIData[i];
       }
     }

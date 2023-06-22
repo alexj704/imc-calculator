@@ -10,7 +10,6 @@ Pour visualiser le site, [cliquez ici](https://alexj704.github.io/imc-calculator
 
 ## Fabriqué avec
 
-- Visual Studio Code
 - HTML
 - CSS
 - JavaScript
